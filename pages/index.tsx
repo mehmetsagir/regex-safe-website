@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box } from "@mantine/core";
 import React from "react";
 
 import Header from "../components/Header";

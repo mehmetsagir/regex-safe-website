@@ -1,4 +1,4 @@
-import { Flex, IconButton, Text, Tooltip } from "@chakra-ui/react";
+import { ActionIcon, Box, Text } from "@mantine/core";
 import Link from "next/link";
 import React from "react";
 
@@ -6,29 +6,37 @@ import Icon from "../components/Icon";
 
 const Header = () => {
   return (
-    <Flex
+    <Box
       sx={{
-        margin: "20px 0",
+        display: "flex",
         justifyContent: "space-between",
+        margin: "20px 0",
       }}
     >
       <Text
         sx={{
-          fontSize: "2xl",
+          fontSize: "24px",
           fontWeight: "bold",
         }}
       >
         CSS Components
       </Text>
 
-      <Tooltip label="Github Repository ⭐️">
-        <Link passHref href="https://github.com/mehmetsagir/css-components.git">
-          <a target="_blank">
-            <IconButton aria-label="Github" icon={<Icon name="github" />} />
-          </a>
-        </Link>
-      </Tooltip>
-    </Flex>
+      <Link passHref href="https://github.com/mehmetsagir/css-components.git">
+        <a target="_blank">
+          <ActionIcon
+            variant="filled"
+            size={36}
+            color="gray"
+            sx={{
+              padding: 6,
+            }}
+          >
+            <Icon name="github" />
+          </ActionIcon>
+        </a>
+      </Link>
+    </Box>
   );
 };
 

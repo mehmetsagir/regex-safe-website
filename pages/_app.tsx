@@ -1,16 +1,24 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import { MantineProvider } from "@mantine/core";
 import type { AppProps } from "next/app";
 
 import Layout from "../components/Layout";
-import theme from "../styles/theme";
+import { Theme } from "../styles/theme";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider theme={theme}>
+    <MantineProvider
+      theme={{
+        colorScheme: "dark",
+        colors: {
+          dark: ["#121212", "#1d1e30", "#ccc", "#fff"],
+        },
+      }}
+    >
+      <Theme />
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </ChakraProvider>
+    </MantineProvider>
   );
 }
 
