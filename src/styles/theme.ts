@@ -1,14 +1,8 @@
-import { lighten } from "polished";
-
-const defaultColor = "#121212";
-
 const theme = {
   colors: {
-    bg: defaultColor,
-    primary: lighten(0.03, defaultColor),
-    secondary: lighten(0.1, defaultColor),
-    textPrimary: lighten(0.9, defaultColor),
-    textSecondary: lighten(0.6, defaultColor),
+    primary: "#212121",
+    shadow: "#000000",
+    textPrimary: "#eee",
   },
 };
 

@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle(({ theme }) => ({
     boxSizing: "border-box",
   },
   body: {
-    backgroundColor: theme.colors.bg,
+    backgroundColor: theme.colors.primary,
     fontFamily:
       "--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
     color: theme.colors.textPrimary,
