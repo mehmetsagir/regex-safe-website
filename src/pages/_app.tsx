@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import Layout from "src/components/Layout";
 import theme from "src/styles/theme";
 import { ThemeProvider } from "styled-components";
 
@@ -8,7 +9,9 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </ThemeProvider>
   );
 }
