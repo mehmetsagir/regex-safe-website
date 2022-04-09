@@ -6,13 +6,14 @@ const Header = () => {
   return (
     <Container>
       <Link href="/">
-        <a className="package-link">regex-safe</a>
+        <a className="package-link">Regex Safe</a>
       </Link>
       <div className="actions">
         <a
           href="https://www.npmjs.com/package/regex-safe"
           target="_blank"
           rel="noreferrer"
+          title="Visit on npm"
         >
           <NPMIcon />
         </a>
@@ -20,6 +21,7 @@ const Header = () => {
           href="https://github.com/mehmetsagir/regex-safe"
           target="_blank"
           rel="noreferrer"
+          title="Visit on GitHub"
         >
           <GithubIcon />
         </a>
@@ -32,7 +34,8 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4px 28px;
+  height: 52px;
+  padding: 0 28px;
   background-color: ${(props) => props.theme.colors.primary};
   box-shadow: 0px 0px 10px ${(props) => props.theme.colors.shadow};
 
