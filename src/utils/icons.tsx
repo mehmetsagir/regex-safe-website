@@ -8,7 +8,7 @@ export const GithubIcon = () => (
 );
 
 export const NPMIcon = () => (
-  <svg width="48" height="48" viewBox="0 0 48 48">
+  <svg width="48px" height="48px" viewBox="0 0 48 48">
     <path fill="#d50000" d="M0,15h48v17H24v3H13v-3H0V15z" />
     <path
       fill="#fff"
