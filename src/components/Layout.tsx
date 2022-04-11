@@ -1,17 +1,20 @@
-import styled from "styled-components";
+import theme from "src/styles/theme";
+import styled, { ThemeProvider } from "styled-components";
 
 import Header from "./Header";
 import Menu from "./Menu";
 
 const Layout: React.FC = ({ children }) => {
   return (
-    <Container>
-      <Header />
-      <main>
-        <Menu />
-        {children}
-      </main>
-    </Container>
+    <ThemeProvider theme={theme}>
+      <Container>
+        <Header />
+        <main>
+          <Menu />
+          {children}
+        </main>
+      </Container>
+    </ThemeProvider>
   );
 };
 
