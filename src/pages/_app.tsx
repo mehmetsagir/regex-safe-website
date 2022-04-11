@@ -6,14 +6,14 @@ import GlobalStyles from "../styles/GlobalStyles";
 
 function MyApp({ Component, pageProps }: any) {
   return (
-    <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyles />
+    <>
+      <GlobalStyles />
+      <ThemeProvider theme={theme}>
         <Layout>
           <Component {...pageProps} />
         </Layout>
-      </>
-    </ThemeProvider>
+      </ThemeProvider>
+    </>
   );
 }
 
