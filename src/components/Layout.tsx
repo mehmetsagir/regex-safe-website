@@ -1,12 +1,12 @@
-import theme from "src/styles/theme";
-import styled, { ThemeProvider } from "styled-components";
+import StyledThemeProvider from "src/styles/ThemeProvider";
+import styled from "styled-components";
 
 import Header from "./Header";
 import Menu from "./Menu";
 
 const Layout: React.FC = ({ children }) => {
   return (
-    <ThemeProvider theme={theme}>
+    <StyledThemeProvider>
       <Container>
         <Header />
         <main>
@@ -14,7 +14,7 @@ const Layout: React.FC = ({ children }) => {
           {children}
         </main>
       </Container>
-    </ThemeProvider>
+    </StyledThemeProvider>
   );
 };
 
