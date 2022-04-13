@@ -37,7 +37,7 @@ const Container = styled.div`
   height: 52px;
   padding: 0 28px;
   background-color: ${(props) => props.theme.colors.primary};
-  box-shadow: 0px 0px 10px ${(props) => props.theme.colors.shadow};
+  box-shadow: 0px 0px 10px ${(props) => props.theme.colors.secondary};
 
   .package-link {
     font-size: 20px;

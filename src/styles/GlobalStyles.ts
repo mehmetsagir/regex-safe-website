@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle(({ theme }) => ({
     backgroundColor: theme.colors.primary,
     fontFamily:
       "--apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
-    color: theme.colors.textPrimary,
+    color: theme.colors.text,
   },
   button: {
     border: "none",

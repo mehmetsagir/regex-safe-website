@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { rgba } from "polished";
 import { useEffect, useState } from "react";
 import datas from "src/db/menu.json";
 import styled from "styled-components";
@@ -38,7 +39,7 @@ const Container = styled.div`
   width: 300px;
   height: calc(100vh - 52px);
   overflow-y: auto;
-  border-right: 1px solid ${(props) => props.theme.colors.border};
+  border-right: 1px solid ${(props) => rgba(props.theme.colors.secondary, 0.5)};
   padding-bottom: 24px;
   h6 {
     font-size: 24px;
