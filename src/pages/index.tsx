@@ -10,22 +10,22 @@ const Home = () => {
       </p>
       <div className="link">
         <p>
-          Also, the Regex Safe{" "}
+          Also, the Regex Safe
           <a
             href="https://github.com/mehmetsagir/regex-safe"
             target="_blank"
             rel="noreferrer"
           >
-            package
-          </a>{" "}
-          and{" "}
+            &nbsp;package
+          </a>
+          &nbsp;and&nbsp;
           <a
             href="https://github.com/mehmetsagir/regex-safe-website"
             target="_blank"
             rel="noreferrer"
           >
-            website
-          </a>{" "}
+            website&nbsp;
+          </a>
           are open source being developed.
         </p>
         <p>You can support to make it better &#xbb;</p>
@@ -35,37 +35,34 @@ const Home = () => {
 };
 
 const Container = styled.div`
+  position: relative;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1;
-  padding-bottom: 120px;
+  text-align: center;
+  padding: 0 20px;
+  letter-spacing: 0.6px;
+
   h1 {
     font-size: 60px;
-    letter-spacing: 2px;
     font-weight: 400;
     margin-bottom: 14px;
   }
-  .desc {
+  .desc,
+  .link {
     font-size: 22px;
     font-weight: 200;
-    letter-spacing: 0.6px;
   }
-
+  .desc:hover + .link a,
+  .link:hover a {
+    color: ${({ theme }) => theme.colors.link};
+  }
   .link {
     font-size: 20px;
-    font-weight: 200;
-    text-align: center;
-    letter-spacing: 0.6px;
-
-    &:hover a {
-      color: ${({ theme }) => theme.colors.link};
-    }
-
     a {
       transition: 250ms;
-
       &:hover {
         text-decoration: underline;
       }
