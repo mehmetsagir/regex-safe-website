@@ -44,7 +44,14 @@ const Container = styled.div`
   text-align: center;
   padding: 0 20px;
   letter-spacing: 0.6px;
-
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("/image.svg") no-repeat center;
+    z-index: -1;
+    opacity: 0.05;
+  }
   h1 {
     font-size: 60px;
     font-weight: 400;
