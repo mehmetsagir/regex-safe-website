@@ -11,7 +11,7 @@ const Layout: React.FC = ({ children }) => {
         <Header />
         <main>
           <Menu />
-          {children}
+          <div className="page-content">{children}</div>
         </main>
       </Container>
     </StyledThemeProvider>
@@ -23,6 +23,18 @@ const Container = styled.div`
   main {
     display: flex;
     height: 100%;
+
+    .page-content {
+      width: 800px;
+      margin: 0 auto;
+      padding: 120px 0;
+
+      @media (max-width: 1200px) {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
   }
 `;
 
