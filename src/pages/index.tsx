@@ -49,8 +49,7 @@ const Home = () => {
 };
 
 const Container = styled.div`
-  width: 800px;
-  margin: 0 auto;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,11 +94,6 @@ const Container = styled.div`
     .editor {
       margin-top: 20px;
     }
-  }
-
-  @media (max-width: 1200px) {
-    width: 100%;
-    padding: 0 20px;
   }
 `;
 
