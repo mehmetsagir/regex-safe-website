@@ -58,6 +58,7 @@ const Editor: React.FC<Props> = ({
           backgroundColor: "#121212",
           fontFamily:
             "ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace",
+          lineHeight: 1.5,
           ...style,
         }}
       />
