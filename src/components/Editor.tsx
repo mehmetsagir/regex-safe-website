@@ -1,10 +1,11 @@
 import "@uiw/react-textarea-code-editor/dist.css";
 
+import StaticCodeEditor from "@uiw/react-textarea-code-editor";
 import dynamic from "next/dynamic";
 import React, { HTMLAttributes, useEffect, useState } from "react";
 import styled from "styled-components";
 
-const CodeEditor = dynamic<any>(
+const CodeEditor = dynamic<React.ComponentProps<typeof StaticCodeEditor>>(
   () => import("@uiw/react-textarea-code-editor").then((mod) => mod.default),
   { ssr: false }
 );
