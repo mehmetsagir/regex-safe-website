@@ -36,6 +36,7 @@ const Menu = () => {
 };
 
 const Container = styled.div`
+  flex-shrink: 0;
   width: 300px;
   height: calc(100vh - 52px);
   overflow-y: auto;
