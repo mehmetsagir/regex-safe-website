@@ -42,7 +42,7 @@ const RemoveHTMLTags = () => {
             language="html"
             disabled={false}
             onChange={({ target }) => {
-              setExampleText(target.value);
+              setExampleText(removeHTMLTags(target.value));
             }}
             noCopy
           />
@@ -50,7 +50,7 @@ const RemoveHTMLTags = () => {
         {exampleText.length > 0 && (
           <div className="output">
             <h5>Output</h5>
-            {removeHTMLTags(exampleText)}
+            {exampleText}
           </div>
         )}
       </div>
