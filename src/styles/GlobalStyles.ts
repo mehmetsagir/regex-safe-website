@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle(({ theme }) => ({
     outline: 0,
     boxSizing: "border-box",
   },
+  "*::selection": {
+    color: "#fff",
+    background: theme.colors.link,
+  },
   body: {
     backgroundColor: theme.colors.primary,
     fontFamily:
