@@ -11,7 +11,9 @@ const Layout: React.FC = ({ children }) => {
         <Header />
         <main>
           <Menu />
-          <div className="page-content">{children}</div>
+          <div className="page">
+            <div className="page-content">{children}</div>
+          </div>
         </main>
       </Container>
     </StyledThemeProvider>
@@ -19,20 +21,23 @@ const Layout: React.FC = ({ children }) => {
 };
 
 const Container = styled.div`
-  max-height: 100vh;
   main {
     display: flex;
-    height: 100%;
+    height: calc(100vh - 52px);
 
-    .page-content {
-      width: 800px;
-      margin: 0 auto;
-      padding: 120px 0;
+    .page {
+      overflow: auto;
+      width: 100%;
+      &-content {
+        width: 800px;
+        margin: 0 auto;
+        padding: 120px 0;
 
-      @media (max-width: 1200px) {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
+        @media (max-width: 1200px) {
+          width: 100%;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
       }
     }
   }
