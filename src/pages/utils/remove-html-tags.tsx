@@ -45,6 +45,9 @@ const RemoveHTMLTags = () => {
               setExampleText(removeHTMLTags(target.value));
             }}
             noCopy
+            style={{
+              maxHeight: 300,
+            }}
           />
         </div>
         {exampleText.length > 0 && (
