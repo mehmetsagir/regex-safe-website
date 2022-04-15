@@ -17,6 +17,8 @@ type Props = {
   language?: string;
   style?: HTMLAttributes<HTMLDivElement>["style"];
   disabled?: boolean;
+  noCopy?: boolean;
+  props?: any;
 } & HTMLAttributes<HTMLElement>;
 
 const Editor: React.FC<Props> = ({
@@ -24,6 +26,8 @@ const Editor: React.FC<Props> = ({
   language,
   style,
   disabled = true,
+  noCopy = false,
+  ...props
 }) => {
   const [isCopied, setIsCopied] = useState(false);
 
@@ -41,17 +45,16 @@ const Editor: React.FC<Props> = ({
 
   return (
     <Container>
-      <button onClick={handleCopy} className={isCopied ? "copied" : ""}>
-        {isCopied ? "Copied" : "Copy"}
-      </button>
+      {!noCopy && (
+        <button onClick={handleCopy} className={isCopied ? "copied" : ""}>
+          {isCopied ? "Copied" : "Copy"}
+        </button>
+      )}
       <CodeEditor
         value={code}
         language={language}
         padding={15}
         disabled={disabled}
-        onFocus={() => {
-          alert();
-        }}
         style={{
           fontSize: 14,
           borderRadius: 4,
@@ -61,6 +64,7 @@ const Editor: React.FC<Props> = ({
           lineHeight: 1.5,
           ...style,
         }}
+        {...props}
       />
     </Container>
   );
