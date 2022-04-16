@@ -29,6 +29,7 @@ const Container = styled.div`
       overflow: auto;
       width: 100%;
       &-content {
+        height: 100%;
         width: 800px;
         margin: 0 auto;
         padding: 120px 0;
