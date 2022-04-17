@@ -7,5 +7,14 @@
         "path": "/utils/remove-html-tags"
       }
     ]
+  },
+  {
+    "title": "Controls",
+    "links": [
+      {
+        "title": "isEmail",
+        "path": "/controls/email"
+      }
+    ]
   }
 ]
