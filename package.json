@@ -2,11 +2,6 @@
   "name": "regex-safe-website",
   "version": "0.1.0",
   "private": true,
-  "author": {
-    "name": "Mehmet Sağır",
-    "email": "me@mehmetsagir.com",
-    "url": "https://mehmetsagir.com"
-  },
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
