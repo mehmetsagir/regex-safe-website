@@ -41,15 +41,19 @@ const StyledContainer = styled.div`
       color: ${({ theme }) => theme.colors.textSecondary};
       margin-bottom: 4px;
     }
-    textarea {
+    textarea,
+    input {
       width: 100%;
       resize: none;
-      background: ${({ theme }) => theme.colors.secondary};
+      background: ${({ theme }) => theme.colors.bg};
       border: ${({ theme }) => theme.colors.textSecondary};
       color: ${({ theme }) => theme.colors.text};
       font-family: inherit;
-      padding: 6px;
+      padding: 6px 10px;
       border-radius: 4px;
+    }
+    input {
+      height: 40px;
     }
     .output {
       margin-top: 14px;
