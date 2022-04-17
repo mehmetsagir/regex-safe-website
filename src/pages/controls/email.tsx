@@ -9,7 +9,7 @@ const Email = () => {
 
   return (
     <Container title="Email">
-      <h1>removeHTMLTags</h1>
+      <h1>isEmail</h1>
       <p className="desc">
         Returns the text by deleting the html tags from the given value.
       </p>
