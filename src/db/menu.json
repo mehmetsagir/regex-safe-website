@@ -18,6 +18,10 @@
       {
         "title": "isURL",
         "path": "/controls/url"
+      },
+      {
+        "title": "isNum",
+        "path": "/controls/number"
       }
     ]
   }
