@@ -22,6 +22,10 @@
       {
         "title": "isNum",
         "path": "/controls/number"
+      },
+      {
+        "title": "isName",
+        "path": "/controls/name"
       }
     ]
   }
