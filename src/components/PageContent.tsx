@@ -57,10 +57,12 @@ const PageContent: React.FC<Props> = ({
             onChange={({ target }) => setValue(target.value)}
           />
         </div>
-        <div className="output">
-          <h5>Output</h5>
-          {String(regexs[code.el](value))}
-        </div>
+        {!!value.length && (
+          <div className="output">
+            <h5>Output</h5>
+            {String(regexs[code.el](value))}
+          </div>
+        )}
       </div>
     </Container>
   );
