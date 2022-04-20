@@ -36,7 +36,7 @@ const URL = () => {
           <h5>Input</h5>
           <input
             type="text"
-            placeholder="Enter url"
+            placeholder="Enter your name"
             value={value}
             onChange={({ target }) => setValue(target.value)}
           />
