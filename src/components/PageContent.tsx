@@ -31,6 +31,14 @@ const PageContent: React.FC<Props> = ({
     <Container title={title}>
       <h1>{code.el}</h1>
       {description && <p className="desc">{description}</p>}
+      <h4>Regex</h4>
+      <Editor
+        style={{
+          marginTop: 12,
+        }}
+        language="jsx"
+        code={code.regex}
+      />
       <h4>Code</h4>
       <Editor
         style={{
