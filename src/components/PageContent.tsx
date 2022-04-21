@@ -14,8 +14,9 @@ type Props = {
   title: string;
   description?: string;
   code: CodeProps;
-  placeholder: string;
+  placeholder?: string;
   exampleCode: string;
+  noExample?: boolean;
 };
 
 const PageContent: React.FC<Props> = ({
@@ -24,6 +25,7 @@ const PageContent: React.FC<Props> = ({
   code,
   placeholder,
   exampleCode,
+  noExample,
 }) => {
   const [value, setValue] = useState("");
 
@@ -55,23 +57,25 @@ const PageContent: React.FC<Props> = ({
         language="jsx"
         code={exampleCode}
       />
-      <div className="example">
-        <div className="input">
-          <h5>Input</h5>
-          <input
-            type="text"
-            placeholder={placeholder}
-            value={value}
-            onChange={({ target }) => setValue(target.value)}
-          />
-        </div>
-        {!!value.length && (
-          <div className="output">
-            <h5>Output</h5>
-            {String(regexs[code.el](value))}
+      {noExample && (
+        <div className="example">
+          <div className="input">
+            <h5>Input</h5>
+            <input
+              type="text"
+              placeholder={placeholder}
+              value={value}
+              onChange={({ target }) => setValue(target.value)}
+            />
           </div>
-        )}
-      </div>
+          {!!value.length && (
+            <div className="output">
+              <h5>Output</h5>
+              {String(regexs[code.el](value))}
+            </div>
+          )}
+        </div>
+      )}
     </Container>
   );
 };
