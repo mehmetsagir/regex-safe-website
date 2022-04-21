@@ -26,6 +26,10 @@
       {
         "title": "isName",
         "path": "/controls/name"
+      },
+      {
+        "title": "isRegex",
+        "path": "/controls/external-regex"
       }
     ]
   }
