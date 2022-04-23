@@ -30,6 +30,10 @@
       {
         "title": "isRegex",
         "path": "/controls/external-regex"
+      },
+      {
+        "title": "isBoolean",
+        "path": "/controls/boolean"
       }
     ]
   }
