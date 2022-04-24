@@ -28,6 +28,10 @@
         "path": "/controls/name"
       },
       {
+        "title": "isSlug",
+        "path": "/controls/slug"
+      },
+      {
         "title": "isRegex",
         "path": "/controls/external-regex"
       },
