@@ -38,6 +38,10 @@
       {
         "title": "isBoolean",
         "path": "/controls/boolean"
+      },
+      {
+        "title": "isEven",
+        "path": "/controls/even-number"
       }
     ]
   }
