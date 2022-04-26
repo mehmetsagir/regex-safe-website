@@ -10,7 +10,7 @@ const OddNumber = () => (
       value: "num",
     }}
     exampleCode={
-      "import { isOdd } from 'regex-safe'; \n\nisEven('1'); // 'true'\nisEven(2); // 'false'"
+      "import { isOdd } from 'regex-safe'; \n\nisOdd('1'); // 'true'\nisOdd(2); // 'false'"
     }
   />
 );
