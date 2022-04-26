@@ -42,6 +42,10 @@
       {
         "title": "isEven",
         "path": "/controls/even-number"
+      },
+      {
+        "title": "isOdd",
+        "path": "/controls/odd-number"
       }
     ]
   }
