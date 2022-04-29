@@ -20,6 +20,10 @@
         "path": "/controls/url"
       },
       {
+        "title": "isImageURL",
+        "path": "/controls/image-url"
+      },
+      {
         "title": "isNum",
         "path": "/controls/number"
       },
