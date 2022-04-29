@@ -46,6 +46,10 @@
       {
         "title": "isOdd",
         "path": "/controls/odd-number"
+      },
+      {
+        "title": "isHexColor",
+        "path": "/controls/hex-color"
       }
     ]
   }
