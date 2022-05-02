@@ -54,6 +54,10 @@
       {
         "title": "isHexColor",
         "path": "/controls/hex-color"
+      },
+      {
+        "title": "isIPv4",
+        "path": "/controls/ipv4"
       }
     ]
   }
