@@ -58,6 +58,10 @@
       {
         "title": "isIPv4",
         "path": "/controls/ipv4"
+      },
+      {
+        "title": "isIPv6",
+        "path": "/controls/ipv6"
       }
     ]
   }
