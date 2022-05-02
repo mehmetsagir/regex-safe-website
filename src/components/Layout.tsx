@@ -31,8 +31,7 @@ const Container = styled.div`
       &-content {
         height: 100%;
         width: 800px;
-        margin: 0 auto;
-        padding: 70px 0;
+        margin: 70px auto;
 
         @media (max-width: 1200px) {
           width: 100%;
