@@ -62,6 +62,10 @@
       {
         "title": "isIPv6",
         "path": "/controls/ipv6"
+      },
+      {
+        "title": "isInteger",
+        "path": "/controls/integer"
       }
     ]
   }
