@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import StyledThemeProvider from "src/styles/ThemeProvider";
 import styled from "styled-components";
 
@@ -5,6 +6,15 @@ import Header from "./Header";
 import Menu from "./Menu";
 
 const Layout: React.FC = ({ children }) => {
+  const router = useRouter();
+
+  const calcContentHeight =
+    router.pathname === "/"
+      ? {
+          height: "100%",
+        }
+      : {};
+
   return (
     <StyledThemeProvider>
       <Container>
@@ -12,7 +22,9 @@ const Layout: React.FC = ({ children }) => {
         <main>
           <Menu />
           <div className="page">
-            <div className="page-content">{children}</div>
+            <div className="page-content" style={calcContentHeight}>
+              {children}
+            </div>
           </div>
         </main>
       </Container>
@@ -29,9 +41,9 @@ const Container = styled.div`
       overflow: auto;
       width: 100%;
       &-content {
-        height: 100%;
         width: 800px;
-        margin: 70px auto;
+        margin: 0 auto;
+        padding: 70px 0;
 
         @media (max-width: 1200px) {
           width: 100%;
