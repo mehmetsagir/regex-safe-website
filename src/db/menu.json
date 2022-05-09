@@ -66,6 +66,10 @@
       {
         "title": "isInteger",
         "path": "/controls/integer"
+      },
+      {
+        "title": "isHTMLTags",
+        "path": "/controls/html-tags"
       }
     ]
   }
