@@ -55,6 +55,20 @@ const StyledContainer = styled.div`
     input {
       height: 40px;
     }
+    button {
+      background: ${({ theme }) => theme.colors.bg};
+      font-size: 16px;
+      color: ${({ theme }) => theme.colors.textSecondary};
+      padding: 4px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .check-wrapper {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
     .output {
       margin-top: 14px;
     }
