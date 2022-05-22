@@ -5,6 +5,10 @@
       {
         "title": "removeHTMLTags",
         "path": "/utils/remove-html-tags"
+      },
+      {
+        "title": "boldText",
+        "path": "/utils/bold-text"
       }
     ]
   },
