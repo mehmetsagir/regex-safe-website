@@ -62,7 +62,14 @@ const PageContent: React.FC<Props> = () => {
         {!!value.length && (
           <div className="output">
             <h5>Output</h5>
-            {boldText(result, value, caseSensitivity)}
+            <span
+              style={{
+                fontWeight: 200,
+              }}
+              dangerouslySetInnerHTML={{
+                __html: boldText(result, value, caseSensitivity),
+              }}
+            />
           </div>
         )}
       </div>
