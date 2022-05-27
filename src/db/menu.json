@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "isEqualArray",
+        "path": "/utils/equal-array"
+      },
+      {
         "title": "removeHTMLTags",
         "path": "/utils/remove-html-tags"
       },
