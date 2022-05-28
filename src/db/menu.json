@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "castArray",
+        "path": "/utils/cast-array"
+      },
+      {
         "title": "isEqualArray",
         "path": "/utils/equal-array"
       },
