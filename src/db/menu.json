@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "convertObject",
+        "path": "/utils/convert-object"
+      },
+      {
         "title": "castArray",
         "path": "/utils/cast-array"
       },
