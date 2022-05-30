@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "countOccurrences",
+        "path": "/utils/count-occurrences"
+      },
+      {
         "title": "convertObject",
         "path": "/utils/convert-object"
       },
