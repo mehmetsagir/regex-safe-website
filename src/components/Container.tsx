@@ -51,6 +51,11 @@ const StyledContainer = styled.div`
       font-family: inherit;
       padding: 6px 10px;
       border-radius: 4px;
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
     }
     input {
       height: 40px;

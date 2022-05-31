@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "range",
+        "path": "/utils/range"
+      },
+      {
         "title": "countOccurrences",
         "path": "/utils/count-occurrences"
       },
