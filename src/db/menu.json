@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "maxByArray",
+        "path": "/utils/max-by-array"
+      },
+      {
         "title": "range",
         "path": "/utils/range"
       },
