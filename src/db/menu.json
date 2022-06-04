@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "indexOfMin",
+        "path": "/utils/index-of-min"
+      },
+      {
         "title": "maxByArray",
         "path": "/utils/max-by-array"
       },
