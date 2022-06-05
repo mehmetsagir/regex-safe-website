@@ -3,7 +3,7 @@ import { indexOfMin } from "regex-safe";
 import Container from "src/components/Container";
 import Editor from "src/components/Editor";
 
-const MaxByArray = () => {
+const IndexOfMin = () => {
   const values = [7, 3, 6, 10, 23];
 
   return (
@@ -42,4 +42,4 @@ const MaxByArray = () => {
   );
 };
 
-export default MaxByArray;
+export default IndexOfMin;
