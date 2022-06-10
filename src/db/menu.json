@@ -15,6 +15,10 @@
         "path": "/utils/max-by-array"
       },
       {
+        "title": "minByArray",
+        "path": "/utils/min-by-array"
+      },
+      {
         "title": "range",
         "path": "/utils/range"
       },
