@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "flat",
+        "path": "/utils/flat"
+      },
+      {
         "title": "indexOfMax",
         "path": "/utils/index-of-max"
       },
