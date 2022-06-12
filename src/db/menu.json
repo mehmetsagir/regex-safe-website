@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "getConsecutiveArrays",
+        "path": "/utils/get-consecutive-arrays"
+      },
+      {
         "title": "flat",
         "path": "/utils/flat"
       },
