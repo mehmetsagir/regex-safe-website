@@ -5,7 +5,7 @@ const GetConsecutiveArrays = () => {
   return (
     <Container title="Get Consecutive Arrays">
       <h1>getConsecutiveArrays</h1>
-      <p className="desc"></p>
+      <p className="desc">Get all arrays of consecutive elements</p>
       <h4>Code</h4>
       <Editor
         style={{
