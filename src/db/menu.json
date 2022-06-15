@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "getIntersection",
+        "path": "/utils/get-intersection"
+      },
+      {
         "title": "getNthItems",
         "path": "/utils/get-nth-items"
       },
