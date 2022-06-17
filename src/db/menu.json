@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "unique",
+        "path": "/utils/unique"
+      },
+      {
         "title": "sum",
         "path": "/utils/sum"
       },
