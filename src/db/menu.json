@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "union",
+        "path": "/utils/union"
+      },
+      {
         "title": "unique",
         "path": "/utils/unique"
       },
