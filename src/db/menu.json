@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "groupBy",
+        "path": "/utils/groupby"
+      },
+      {
         "title": "union",
         "path": "/utils/union"
       },
