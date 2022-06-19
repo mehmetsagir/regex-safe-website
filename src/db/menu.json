@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "merge",
+        "path": "/utils/merge"
+      },
+      {
         "title": "groupBy",
         "path": "/utils/groupby"
       },
