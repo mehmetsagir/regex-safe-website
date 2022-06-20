@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "removeFalsy",
+        "path": "/utils/remove-falsy"
+      },
+      {
         "title": "merge",
         "path": "/utils/merge"
       },
