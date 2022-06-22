@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "shuffle",
+        "path": "/utils/shuffle"
+      },
+      {
         "title": "repeat",
         "path": "/utils/repeat"
       },
