@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "transpose",
+        "path": "/utils/transpose"
+      },
+      {
         "title": "chunk",
         "path": "/utils/chunk"
       },
