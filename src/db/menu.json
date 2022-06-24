@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "chunk",
+        "path": "/utils/chunk"
+      },
+      {
         "title": "sort",
         "path": "/utils/sort"
       },
