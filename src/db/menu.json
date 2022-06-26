@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "swapItems",
+        "path": "/utils/swap-items"
+      },
+      {
         "title": "transpose",
         "path": "/utils/transpose"
       },
