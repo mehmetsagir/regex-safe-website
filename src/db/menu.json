@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "suffixAmPm",
+        "path": "/utils/suffixAmPm"
+      },
+      {
         "title": "swapItems",
         "path": "/utils/swap-items"
       },
