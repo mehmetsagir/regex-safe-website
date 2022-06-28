@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "diffDays",
+        "path": "/utils/diff-days"
+      },
+      {
         "title": "suffixAmPm",
         "path": "/utils/suffixAmPm"
       },
