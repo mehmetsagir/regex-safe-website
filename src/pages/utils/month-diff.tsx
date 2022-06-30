@@ -1,7 +1,7 @@
 import Container from "src/components/Container";
 import Editor from "src/components/Editor";
 
-const DiffDays = () => {
+const MonthDiff = () => {
   return (
     <Container title="Month Diff">
       <h1>monthDiff</h1>
@@ -34,4 +34,4 @@ const DiffDays = () => {
   );
 };
 
-export default DiffDays;
+export default MonthDiff;
