@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "monthDiff",
+        "path": "/utils/month-diff"
+      },
+      {
         "title": "diffDays",
         "path": "/utils/diff-days"
       },
