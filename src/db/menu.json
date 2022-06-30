@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "formatSeconds",
+        "path": "/utils/format-seconds"
+      },
+      {
         "title": "monthDiff",
         "path": "/utils/month-diff"
       },
