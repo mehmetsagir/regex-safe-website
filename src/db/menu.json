@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "formatLocaleDate",
+        "path": "/utils/format-locale-date"
+      },
+      {
         "title": "formatSeconds",
         "path": "/utils/format-seconds"
       },
