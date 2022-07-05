@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "getFirstDate",
+        "path": "/utils/get-first-date"
+      },
+      {
         "title": "dayOfYear",
         "path": "/utils/day-of-year"
       },
