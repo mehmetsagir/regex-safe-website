@@ -5,7 +5,7 @@ const DayOfYear = () => {
   return (
     <Container title="dayOfYear">
       <h1>dayOfYear</h1>
-      <p className="desc">Group an array of objects by a key</p>
+      <p className="desc">Get the day of the year from a date</p>
       <h4>Code</h4>
       <Editor
         style={{
