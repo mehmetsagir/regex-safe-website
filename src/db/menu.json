@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "dayOfYear",
+        "path": "/utils/day-of-year"
+      },
+      {
         "title": "formatLocaleDate",
         "path": "/utils/format-locale-date"
       },
