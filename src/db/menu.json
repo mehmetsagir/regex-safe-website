@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "getLastDate",
+        "path": "/utils/get-last-date"
+      },
+      {
         "title": "getFirstDate",
         "path": "/utils/get-first-date"
       },
