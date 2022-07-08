@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "daysInMonth",
+        "path": "/utils/days-in-month"
+      },
+      {
         "title": "getMonthName",
         "path": "/utils/get-month-name"
       },
