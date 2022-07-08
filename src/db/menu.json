@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "getMonthName",
+        "path": "/utils/get-month-name"
+      },
+      {
         "title": "getLastDate",
         "path": "/utils/get-last-date"
       },
