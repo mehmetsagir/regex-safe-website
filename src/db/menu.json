@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "getTimezone",
+        "path": "/utils/get-timezone"
+      },
+      {
         "title": "daysInMonth",
         "path": "/utils/days-in-month"
       },
