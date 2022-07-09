@@ -1,8 +1,7 @@
-import Container from "src/components/Container";
-import Editor from "src/components/Editor";
-
 // @ts-ignore
 import { getTimezone } from "regex-safe";
+import Container from "src/components/Container";
+import Editor from "src/components/Editor";
 
 const GetTimezone = () => {
   return (
