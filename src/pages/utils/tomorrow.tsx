@@ -1,6 +1,5 @@
 // @ts-ignore
 import { tomorrow } from "regex-safe";
-
 import Container from "src/components/Container";
 import Editor from "src/components/Editor";
 
