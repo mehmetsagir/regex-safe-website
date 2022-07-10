@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "numberOfDays",
+        "path": "/utils/number-of-days"
+      },
+      {
         "title": "tomorrow",
         "path": "/utils/tomorrow"
       },
