@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "yesterday",
+        "path": "/utils/yesterday"
+      },
+      {
         "title": "getWeekday",
         "path": "/utils/get-weekday"
       },
