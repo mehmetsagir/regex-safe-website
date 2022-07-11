@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "sortDescending",
+        "path": "/utils/sort-descending"
+      },
+      {
         "title": "yesterday",
         "path": "/utils/yesterday"
       },
