@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "hasFocus",
+        "path": "/utils/has-focus"
+      },
+      {
         "title": "isDescendant",
         "path": "/utils/is-descendant"
       },
