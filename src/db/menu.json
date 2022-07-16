@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "touchSupported",
+        "path": "/utils/touch-supported"
+      },
+      {
         "title": "hasFocus",
         "path": "/utils/has-focus"
       },
