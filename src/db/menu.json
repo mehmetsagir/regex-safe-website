@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "isAtBottom",
+        "path": "/utils/is-at-bottom"
+      },
+      {
         "title": "touchSupported",
         "path": "/utils/touch-supported"
       },
