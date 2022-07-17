@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "siblings",
+        "path": "/utils/siblings"
+      },
+      {
         "title": "isAtBottom",
         "path": "/utils/is-at-bottom"
       },
