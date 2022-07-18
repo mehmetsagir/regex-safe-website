@@ -4,6 +4,10 @@
     "links": [
       {
         "title": "getPosition",
+        "path": "/utils/get-selected-text"
+      },
+      {
+        "title": "getPosition",
         "path": "/utils/get-position"
       },
       {
