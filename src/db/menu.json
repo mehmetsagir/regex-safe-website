@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "getPosition",
+        "path": "/utils/get-position"
+      },
+      {
         "title": "siblings",
         "path": "/utils/siblings"
       },
