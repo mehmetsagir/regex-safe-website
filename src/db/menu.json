@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "insertAfter",
+        "path": "/utils/insert-after"
+      },
+      {
         "title": "getPosition",
         "path": "/utils/get-selected-text"
       },
