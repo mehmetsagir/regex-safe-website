@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "goTo",
+        "path": "/utils/go-to"
+      },
+      {
         "title": "insertHtmlBefore",
         "path": "/utils/insert-html-before"
       },
