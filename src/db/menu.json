@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "insertHtmlBefore",
+        "path": "/utils/insert-html-before"
+      },
+      {
         "title": "insertHtmlAfter",
         "path": "/utils/insert-html-after"
       },
