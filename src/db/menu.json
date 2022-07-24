@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "reload",
+        "path": "/utils/reload"
+      },
+      {
         "title": "goTo",
         "path": "/utils/go-to"
       },
