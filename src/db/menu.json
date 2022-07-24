@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "replace",
+        "path": "/utils/replace"
+      },
+      {
         "title": "reload",
         "path": "/utils/reload"
       },
