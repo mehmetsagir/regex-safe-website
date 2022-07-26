@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "goToTop",
+        "path": "/utils/go-to-top"
+      },
+      {
         "title": "replace",
         "path": "/utils/replace"
       },
