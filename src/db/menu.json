@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "stripHtml",
+        "path": "/utils/strip-html"
+      },
+      {
         "title": "show",
         "path": "/utils/show"
       },
