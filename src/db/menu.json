@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "show",
+        "path": "/utils/show"
+      },
+      {
         "title": "serialize",
         "path": "/utils/serialize"
       },
