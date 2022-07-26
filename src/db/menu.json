@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "serialize",
+        "path": "/utils/serialize"
+      },
+      {
         "title": "goToTop",
         "path": "/utils/go-to-top"
       },
