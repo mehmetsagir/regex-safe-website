@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "boxHandler",
+        "path": "/utils/box-handler"
+      },
+      {
         "title": "toggle",
         "path": "/utils/toggle"
       },
