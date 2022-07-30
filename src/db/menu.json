@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "isGeneratorFunction",
+        "path": "/utils/is-generator-function"
+      },
+      {
         "title": "isFunction",
         "path": "/utils/is-function"
       },
