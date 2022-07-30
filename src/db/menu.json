@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "isAsyncFunction",
+        "path": "/utils/is-async-function"
+      },
+      {
         "title": "isGeneratorFunction",
         "path": "/utils/is-generator-function"
       },
