@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "isFunction",
+        "path": "/utils/is-function"
+      },
+      {
         "title": "boxHandler",
         "path": "/utils/box-handler"
       },
