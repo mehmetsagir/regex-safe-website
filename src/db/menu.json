@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "unary",
+        "path": "/utils/unary"
+      },
+      {
         "title": "isAsyncFunction",
         "path": "/utils/is-async-function"
       },
