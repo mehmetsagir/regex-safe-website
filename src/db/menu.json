@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "xor",
+        "path": "/utils/xor"
+      },
+      {
         "title": "curry",
         "path": "/utils/curry"
       },
