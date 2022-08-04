@@ -5,6 +5,7 @@ const AddOrdinal = () => {
   return (
     <Container title="Add Ordinal">
       <h1>addOrdinal</h1>
+      <p className="desc">Add an ordinal suffix to a number</p>
       <h4>Code</h4>
       <Editor
         style={{
