@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "addOrdinal",
+        "path": "/utils/add-ordinal"
+      },
+      {
         "title": "xor",
         "path": "/utils/xor"
       },
