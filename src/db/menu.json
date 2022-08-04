@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "division",
+        "path": "/utils/division"
+      },
+      {
         "title": "average",
         "path": "/utils/average"
       },
