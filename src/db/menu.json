@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "average",
+        "path": "/utils/average"
+      },
+      {
         "title": "fibo",
         "path": "/utils/fibo"
       },
