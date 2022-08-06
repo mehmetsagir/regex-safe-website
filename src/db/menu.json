@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "mod",
+        "path": "/utils/mod"
+      },
+      {
         "title": "factorial",
         "path": "/utils/factorial"
       },
