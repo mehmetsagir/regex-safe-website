@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "remainder",
+        "path": "/utils/remainder"
+      },
+      {
         "title": "mod",
         "path": "/utils/mod"
       },
