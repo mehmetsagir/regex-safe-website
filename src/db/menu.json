@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "decToBi",
+        "path": "/utils/dec-to-bi"
+      },
+      {
         "title": "toChars",
         "path": "/utils/to-chars"
       },
