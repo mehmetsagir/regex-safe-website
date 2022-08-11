@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "toChars",
+        "path": "/utils/to-chars"
+      },
+      {
         "title": "gcd",
         "path": "/utils/gcd"
       },
