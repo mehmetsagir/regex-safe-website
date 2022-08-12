@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "mul",
+        "path": "/utils/mul"
+      },
+      {
         "title": "digitize",
         "path": "/utils/digitize"
       },
