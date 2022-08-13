@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "gcd",
+        "path": "/utils/gcd"
+      },
+      {
         "title": "clamp",
         "path": "/utils/clamp"
       },
