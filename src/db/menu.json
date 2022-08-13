@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "clamp",
+        "path": "/utils/clamp"
+      },
+      {
         "title": "remainder",
         "path": "/utils/remainder"
       },
