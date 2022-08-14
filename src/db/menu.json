@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "digitize",
+        "path": "/utils/digitize"
+      },
+      {
         "title": "decToBi",
         "path": "/utils/dec-to-bi"
       },
