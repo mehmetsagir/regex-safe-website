@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "isEqual",
+        "path": "/utils/is-equal"
+      },
+      {
         "title": "prefixWithZeros",
         "path": "/utils/prefix-with-zeros"
       },
