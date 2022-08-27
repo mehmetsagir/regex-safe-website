@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "toObj",
+        "path": "/utils/to-obj"
+      },
+      {
         "title": "isEqual",
         "path": "/utils/is-equal"
       },
