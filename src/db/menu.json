@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "round",
+        "path": "/utils/round"
+      },
+      {
         "title": "subtract",
         "path": "/utils/subtract"
       },
