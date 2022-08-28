@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "prefixWithZeros",
+        "path": "/utils/prefix-with-zeros"
+      },
+      {
         "title": "round",
         "path": "/utils/round"
       },
