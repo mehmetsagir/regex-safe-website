@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "toFixed",
+        "path": "/utils/to-fixed"
+      },
+      {
         "title": "truncate",
         "path": "/utils/truncate"
       },
