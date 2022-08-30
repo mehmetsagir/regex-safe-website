@@ -3,6 +3,10 @@
     "title": "Utils",
     "links": [
       {
+        "title": "truncate",
+        "path": "/utils/truncate"
+      },
+      {
         "title": "wrap",
         "path": "/utils/wrap"
       },
